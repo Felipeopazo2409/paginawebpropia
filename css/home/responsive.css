@@ -1,0 +1,139 @@
+
+
+@media (max-width:1030px){
+    .contenido-mio{
+        width: 60%;
+    }
+}
+
+@media(max-width:986px){
+    .presentacion{
+        background-size: 100% 100%;
+    }
+    .box{
+        width: 31%;
+    }
+}
+@media (max-width:840px){
+    .presentacion{
+        background-size: 100% 100%;
+    }
+    .box{
+        width: 25%;
+    }
+    .sobremi{
+        flex-direction: column;
+        height: auto;
+    }
+    .contenido-mio{
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width:774px){
+    .presentacion{
+        background-size: 100% 100%;
+    }
+    .box{
+        width: 40%;
+        margin-left:5px;
+        height: 300px;
+    }
+}
+@media(max-width:690px){
+    .presentacion{
+        background-size: 100% 100%;
+    }
+    .servicios{
+        height: auto;
+    }
+    .boxs{
+        flex-direction: column;
+        align-items: center;
+    }
+    .box{
+        width: 60%;
+        height: auto;
+        margin-bottom: 40px;
+    }
+    .box h3{
+        font-size: 30px;
+        line-height: 70px;
+       
+    }
+    .list-skills > li >img{
+        width: 100px;
+    }
+    .box-redes{
+        height: 250px;
+    }
+    .box-redes >a>img{
+        width: 100px;
+        height: 100px;
+        
+    }
+}
+
+@media(max-width:609px){
+    .hgroup{
+        width: 100%;
+    }
+    .hgroup h1{
+        line-height: 50px
+    }
+    .box h3{
+        font-size: 25px;
+        line-height: 70px;   
+    }
+    .list-skills > li >img{
+        width: 80px;
+        height: 80px;
+    }
+    .box-redes >a>img{
+        width: 80px;
+        height: 80px;
+        
+    }
+}
+@media(max-width:487px){
+    .presentacion{
+        height: auto;
+    }
+    .icono{
+        padding-left: 30px;
+        width: 37%;
+    }
+    .box{
+        width: 70%;
+    }
+    .skills{
+        height: auto;
+    }
+    .list-skills {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .list-skills > li > img{
+        width: 120px;
+        height: 120px;
+        margin-bottom: 20px;
+        
+    }
+    .redes{
+        height: auto;
+    }
+    .box-redes{
+        flex-direction: row;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .box{
+        width: 85%;
+    }
+    .contenido-mio{
+        width: 80%;
+    }
+    .contenido-mio p{
+        width: 90%;
+    }
+}
