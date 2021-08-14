@@ -1,12 +1,15 @@
 
 
-@media (max-width:1030px){
+@media only screen and(max-width:1030px){
     .contenido-mio{
         width: 60%;
     }
+    .nav2{
+        display: none;
+    }
 }
 
-@media(max-width:986px){
+@media only screen and (max-width:986px){
     .presentacion{
         background-size: 100% 100%;
     }
@@ -14,7 +17,7 @@
         width: 31%;
     }
 }
-@media (max-width:840px){
+@media only screen and(max-width:840px){
     .presentacion{
         background-size: 100% 100%;
     }
@@ -40,7 +43,7 @@
         height: 300px;
     }
 }
-@media(max-width:690px){
+@media only screen and (max-width:690px){
     .presentacion{
         background-size: 100% 100%;
     }
@@ -74,7 +77,7 @@
     }
 }
 
-@media(max-width:609px){
+@media only screen and (max-width:609px){
     .hgroup{
         width: 100%;
     }
@@ -95,7 +98,7 @@
         
     }
 }
-@media(max-width:487px){
+@media only screen and (max-width:487px){
     .presentacion{
         height: auto;
     }
@@ -137,3 +140,71 @@
         width: 90%;
     }
 }
+@media only screen and (width:420px) and (width:375px){
+    .header{
+        height: 100px;
+    }
+    .nav{
+        display: none;
+    }
+    .hgroup{
+        margin-top: 30px;
+    }
+    
+    .nav2{
+        display: block;
+        order: 1;
+    }
+    .icono{
+        order: 2;
+    }
+    .icono-menu{
+        margin: 40px 50px;
+        position: relative;
+        z-index: 10;
+    }
+    .icono-menu img{
+        vertical-align: top;
+        width: 40px;
+        cursor: pointer;
+    }
+    .cont-menu{
+        background-color: #005f73;
+        box-shadow: 2px 0px 5px 2px rgb(66, 66, 66);
+        width: 400px;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: all .5s ease;
+        opacity: 90%;
+
+    }
+    .cont-menu ul{
+        padding: 100px 0px 20px 0px;
+       list-style: none; 
+    }
+    .cont-menu ul li{
+        color: white;
+        display: block;
+        font-size: 25px;
+        text-decoration: none;
+        padding: 10px 50px;
+        cursor: pointer;
+    }
+    .cont-menu ul li:hover{
+        background-color: rgb(228, 228, 228);
+        color: rgb(42, 42, 42);
+
+    }
+    .active{
+        transform: translate(-600px);
+    }
+    .opacity{
+        background-color: all.5s ease;
+    }
+    .icono{
+        height: 100px;
+    }
+}
+

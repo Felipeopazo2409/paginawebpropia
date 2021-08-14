@@ -33,6 +33,10 @@
     width: 80%;
    
 }
+.nav2{
+    width: 80%;
+    display: none;
+}
 
 .nav > ul{
     display: flex;
