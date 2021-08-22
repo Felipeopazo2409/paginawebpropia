@@ -1,6 +1,7 @@
 
 
 @media only screen and(max-width:1030px){
+  
     .contenido-mio{
         width: 60%;
     }
@@ -15,7 +16,18 @@
     }
     .box{
         width: 31%;
+        margin-right: 20px;
     }
+    .imagen{
+        margin-right: 20px;
+        width: 30%;
+        
+    }
+    .imagen > img{
+        width: 200px;
+        height: 200px;
+    }
+    
 }
 @media only screen and(max-width:840px){
     .presentacion{
@@ -41,6 +53,9 @@
         width: 40%;
         margin-left:5px;
         height: 300px;
+    }
+    .contenido-mio{
+        width: 45%;
     }
 }
 @media only screen and (max-width:690px){
@@ -97,114 +112,85 @@
         height: 80px;
         
     }
-}
-@media only screen and (max-width:487px){
-    .presentacion{
-        height: auto;
+    .sobremi{
+        flex-direction: column;
     }
-    .icono{
-        padding-left: 30px;
-        width: 37%;
+    .imagen{
+        width: 70%;
+        height: 250px;
+    }
+    .contenido-mio{
+        width: 70%;
+    
+    }
+}
+
+
+
+@media (max-width: 523px) {
+    .list-skills > li > img{
+        width: 69%;
+        height: 52%
     }
     .box{
         width: 70%;
     }
     .skills{
-        height: auto;
-    }
-    .list-skills {
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    .list-skills > li > img{
-        width: 120px;
-        height: 120px;
-        margin-bottom: 20px;
-        
+        height: 200px;
     }
     .redes{
-        height: auto;
+        height: 200px
     }
+    .box-redes > a> img{
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media only screen and (max-width:404px){
     .box-redes{
         flex-direction: row;
-        height: auto;
-        flex-wrap: wrap;
+        
     }
     .box{
-        width: 85%;
-    }
-    .contenido-mio{
         width: 80%;
     }
-    .contenido-mio p{
-        width: 90%;
+    .box-redes > a > img{
+        width: 40%;
+        height: 40%;
+
     }
-}
-@media only screen and (width:420px) and (width:375px){
-    .header{
-        height: 100px;
+    .img{
+        width: 30px;
+        height: 30px;
+       
     }
-    .nav{
+    .icono{
         display: none;
     }
-    .hgroup{
-        margin-top: 30px;
+    .list-skills{
+        width: 100%;
     }
-    
-    .nav2{
-        display: block;
-        order: 1;
+    .footer{
+        font-size: 20px;
     }
-    .icono{
-        order: 2;
-    }
-    .icono-menu{
-        margin: 40px 50px;
-        position: relative;
-        z-index: 10;
-    }
-    .icono-menu img{
-        vertical-align: top;
-        width: 40px;
-        cursor: pointer;
-    }
-    .cont-menu{
-        background-color: #005f73;
-        box-shadow: 2px 0px 5px 2px rgb(66, 66, 66);
-        width: 400px;
-        height: 100vh;
-        position: absolute;
-        top: 0;
-        left: 0;
-        transition: all .5s ease;
-        opacity: 90%;
-
-    }
-    .cont-menu ul{
-        padding: 100px 0px 20px 0px;
-       list-style: none; 
-    }
-    .cont-menu ul li{
-        color: white;
-        display: block;
-        font-size: 25px;
-        text-decoration: none;
-        padding: 10px 50px;
-        cursor: pointer;
-    }
-    .cont-menu ul li:hover{
-        background-color: rgb(228, 228, 228);
-        color: rgb(42, 42, 42);
-
-    }
-    .active{
-        transform: translate(-600px);
-    }
-    .opacity{
-        background-color: all.5s ease;
-    }
-    .icono{
-        height: 100px;
-    }
+  
 }
 
+@media only screen and (max-width:375px){
+    .box{
+        width: 85%;
+        
+    }
+    .presentacion{
+        background-color: #14213d;
+        font-family: Helvetica;
+        background-image: none;
+    }
+    .hgroup{
+        color: white;
+    }
+    .box h3{
+        font-size: 22px;
+    }
+}
